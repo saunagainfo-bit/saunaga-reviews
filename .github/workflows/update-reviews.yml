@@ -1,0 +1,71 @@
+name: Update Google reviews
+
+on:
+  schedule:
+    - cron: "0 20 * * *"   # 毎日 UTC 20:00 ＝ 日本時間 朝5:00
+  workflow_dispatch:        # 手動実行ボタン
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch reviews
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          PLACE_ID: ${{ secrets.PLACE_ID }}
+        run: |
+          cat > fetch.mjs <<'EOF'
+          import { writeFile, readFile } from "node:fs/promises";
+          const API_KEY = process.env.GOOGLE_API_KEY;
+          const PLACE_ID = process.env.PLACE_ID;
+          const OUT = "reviews.json";
+          if (!API_KEY || !PLACE_ID) { console.error("GOOGLE_API_KEY と PLACE_ID を設定してください"); process.exit(1); }
+          const FIELDS = ["id","displayName","rating","userRatingCount","googleMapsUri","reviews"].join(",");
+          const res = await fetch(
+            `https://places.googleapis.com/v1/places/${encodeURIComponent(PLACE_ID)}?languageCode=ja&regionCode=JP`,
+            { headers: { "X-Goog-Api-Key": API_KEY, "X-Goog-FieldMask": FIELDS } }
+          );
+          if (!res.ok) { console.error("Places API エラー:", res.status, await res.text()); process.exit(1); }
+          const place = await res.json();
+          const payload = {
+            name: place.displayName?.text ?? "SAUNAGA",
+            rating: place.rating ?? null,
+            userRatingCount: place.userRatingCount ?? 0,
+            googleMapsUri: place.googleMapsUri ?? null,
+            reviews: (place.reviews ?? [])
+              .filter((r) => (r.originalText?.text || r.text?.text || "").trim().length > 0)
+              .map((r) => ({
+                author: r.authorAttribution?.displayName ?? "Google ユーザー",
+                photo: r.authorAttribution?.photoUri ?? null,
+                profile: r.authorAttribution?.uri ?? null,
+                rating: r.rating ?? null,
+                time: r.publishTime ?? null,
+                text: (r.originalText?.text || r.text?.text || "").trim(),
+                uri: r.googleMapsUri ?? null,
+              })),
+            fetchedAt: new Date().toISOString(),
+          };
+          if (payload.reviews.length === 0) {
+            try {
+              const prev = JSON.parse(await readFile(OUT, "utf8"));
+              if (prev.reviews?.length) { console.log("今回は0件のため前回の内容を維持します"); process.exit(0); }
+            } catch {}
+          }
+          await writeFile(OUT, JSON.stringify(payload, null, 2) + "\n", "utf8");
+          console.log(`更新: ★${payload.rating} / ${payload.userRatingCount}件 / クチコミ${payload.reviews.length}件`);
+          EOF
+          node fetch.mjs
+          rm fetch.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add reviews.json
+          git diff --staged --quiet || git commit -m "Update reviews $(date -u +%Y-%m-%d)"
+          git push
