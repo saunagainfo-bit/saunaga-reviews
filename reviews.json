@@ -1,7 +1,7 @@
 {
   "name": "SAUNAGA",
   "rating": 4.9,
-  "userRatingCount": 40,
+  "userRatingCount": 41,
   "googleMapsUri": "https://maps.google.com/?cid=17147423292822958976&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "reviews": [
     {
@@ -50,5 +50,5 @@
       "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25GbVJIRkhkSEExV0hsRlVuZHdTemxRVTE5MWVtYxAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
     }
   ],
-  "fetchedAt": "2026-09-09T20:03:25.314Z"
+  "fetchedAt": "2026-09-10T20:03:19.763Z"
 }
