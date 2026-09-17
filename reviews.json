@@ -5,6 +5,15 @@
   "googleMapsUri": "https://maps.google.com/?cid=17147423292822958976&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "reviews": [
     {
+      "author": "Kaito Tani",
+      "photo": "https://lh3.googleusercontent.com/a-/ALV-UjVKjqyHJoScOH94O0E9A69xERU2FFC1PUFYvXFS3lDWIfLrDCpLrQ=s128-c0x00000000-cc-rp-mo",
+      "profile": "https://www.google.com/maps/contrib/112717034401211289986/reviews",
+      "rating": 5,
+      "time": "2026-08-23T02:46:44.137152781Z",
+      "text": "施設も新しく綺麗で、整い場も広くとても気持ちよく整えました！施設全体的に木の香りがしてとても癒されました。また長野に来た際は利用したいと思います",
+      "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21kclRrRkJMVzVGVlRRMmIzZGFhRGsxV2pOM1VFRRAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
+    },
+    {
       "author": "古賀大智",
       "photo": "https://lh3.googleusercontent.com/a/ACg8ocKeNEMg3bwanzA8m8JpfUzi7knzijhyUQQTCycCvCnNa8zhRA=s128-c0x00000000-cc-rp-mo",
       "profile": "https://www.google.com/maps/contrib/109278412084108708928/reviews",
@@ -39,16 +48,7 @@
       "time": "2026-04-05T02:02:21.370521216Z",
       "text": "とても綺麗でサウナの温度もちょうど良かったです。街中ですが外気浴もあるのが嬉しいです。またレディースディがあったら利用したいです。\n可能であれば…女性は上がった後のメイクやドライヤーなど身支度に時間がかかるので、もう少し時間があればありがたいなと感じました。\n本当に良い施設でした！ありがとうございましたm(__)m",
       "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tsT2FsWkxkMUpyTUdwUFZXOTRhUzAyUW5wTVZuYxAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
-    },
-    {
-      "author": "ryota seki",
-      "photo": "https://lh3.googleusercontent.com/a-/ALV-UjX5VOK72lngMnTDsC14sH9CbguB6wR_1L_tHqvOxhty82ZYynpzUg=s128-c0x00000000-cc-rp-mo",
-      "profile": "https://www.google.com/maps/contrib/102950861583750292946/reviews",
-      "rating": 5,
-      "time": "2026-04-08T06:06:58.300749723Z",
-      "text": "めっちゃ良かった！サウナはもちろん、細かなアメニティまでこだわっていました！\nプレなのでほぼ貸切！",
-      "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21sVFVtRjBOM2RHV1hwUldESnhaSEJFYjFFMVFXYxAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
     }
   ],
-  "fetchedAt": "2026-09-16T20:03:56.711Z"
+  "fetchedAt": "2026-09-17T20:03:39.216Z"
 }
