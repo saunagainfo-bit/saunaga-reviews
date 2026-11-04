@@ -1,9 +1,18 @@
 {
   "name": "SAUNAGA",
   "rating": 4.9,
-  "userRatingCount": 48,
+  "userRatingCount": 49,
   "googleMapsUri": "https://maps.google.com/?cid=17147423292822958976&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "reviews": [
+    {
+      "author": "LOOPホールディングス合同会社",
+      "photo": "https://lh3.googleusercontent.com/a-/ALV-UjU058nrbiVyCFYKs_VwPUpbbWDD4VSOHNl-irKn4y9Q-4Q1tBY=s128-c0x00000000-cc-rp-mo",
+      "profile": "https://www.google.com/maps/contrib/104791933101999777555/reviews",
+      "rating": 5,
+      "time": "2026-09-09T04:54:23.056435793Z",
+      "text": "東京から長野に移住してきて、これまでいろいろなサウナに行ってきましたが、ここは本当に良かったです。\n\nサウナ・水風呂・休憩スペースのバランスがとても良く、個人的には今までで一番「整った」と感じられるくらい最高の時間でした。\n\n施設全体も清潔感があり、居心地も抜群。特に外気浴のスペースが気持ちよく、サウナ後にゆっくり過ごせる環境までしっかり作られています。\n\nそして何より、対応してくださった女性スタッフさんがとても丁寧で親切でした。施設の良さはもちろんですが、接客も含めて気に入り、その場ですぐにサブスクを契約しました。笑\n\nこの料金でこのクオリティなら、個人的にはかなり満足度が高いです。東京から移住してきた自分にとって、長野でこんなに良いサウナに出会えたのは嬉しい限りです。\n\nサウナ好きの方はもちろん、「最近サウナに興味を持ち始めた」という方にもおすすめしたいです。\n\nまずは一度、お試しでも行ってみてほしいです。\n本当に整います。またすぐ行きます！\n\n★★★★★ 文句なしの5つ星です。",
+      "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xSTlJUUm1TMUpMTmxOc1pHNUdYMEppWkhvemJuYxAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
+    },
     {
       "author": "Type0 MIKADO",
       "photo": "https://lh3.googleusercontent.com/a-/ALV-UjVSJQ6Twmg7SnxIP7NbEItGmcO3erqfKQPswsooknte2-uRA00TuQ=s128-c0x00000000-cc-rp-mo-ba6",
@@ -39,16 +48,7 @@
       "time": "2026-04-05T01:34:39.904430051Z",
       "text": "レディースデイで初めて利用しました！\nサウナ自体初だったんですが、施設が綺麗でよかったです。気持ちよく利用させてもらいました。外気浴が気持ちよかったです。また少人数制が嬉しい。またレディースデイ作って欲しいです！",
       "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pWTk4xaEJhRFZRY1dkYWVERTBNbTFOWkdKdldsRRAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
-    },
-    {
-      "author": "加藤千春",
-      "photo": "https://lh3.googleusercontent.com/a/ACg8ocIJwJmmav1rESlPExOD0IyJcH5mfBVARVHCGCyajimdWm6i7Q=s128-c0x00000000-cc-rp-mo",
-      "profile": "https://www.google.com/maps/contrib/103930769837526629825/reviews",
-      "rating": 5,
-      "time": "2026-04-05T02:02:21.370521216Z",
-      "text": "とても綺麗でサウナの温度もちょうど良かったです。街中ですが外気浴もあるのが嬉しいです。またレディースディがあったら利用したいです。\n可能であれば…女性は上がった後のメイクやドライヤーなど身支度に時間がかかるので、もう少し時間があればありがたいなと感じました。\n本当に良い施設でした！ありがとうございましたm(__)m",
-      "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tsT2FsWkxkMUpyTUdwUFZXOTRhUzAyUW5wTVZuYxAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
     }
   ],
-  "fetchedAt": "2026-11-03T01:54:47.063Z"
+  "fetchedAt": "2026-11-04T00:16:13.111Z"
 }
