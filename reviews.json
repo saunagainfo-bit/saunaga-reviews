@@ -1,7 +1,7 @@
 {
   "name": "SAUNAGA",
   "rating": 4.9,
-  "userRatingCount": 49,
+  "userRatingCount": 51,
   "googleMapsUri": "https://maps.google.com/?cid=17147423292822958976&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "reviews": [
     {
@@ -23,15 +23,6 @@
       "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25OTmJuQm9kVlZrVDFjdFQxTnROVFZ5ZEc5Nk5uYxAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
     },
     {
-      "author": "Kaito Tani",
-      "photo": "https://lh3.googleusercontent.com/a-/ALV-UjVKjqyHJoScOH94O0E9A69xERU2FFC1PUFYvXFS3lDWIfLrDCpLrQ=s128-c0x00000000-cc-rp-mo",
-      "profile": "https://www.google.com/maps/contrib/112717034401211289986/reviews",
-      "rating": 5,
-      "time": "2026-08-23T02:46:44.137152781Z",
-      "text": "施設も新しく綺麗で、整い場も広くとても気持ちよく整えました！施設全体的に木の香りがしてとても癒されました。また長野に来た際は利用したいと思います",
-      "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21kclRrRkJMVzVGVlRRMmIzZGFhRGsxV2pOM1VFRRAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
-    },
-    {
       "author": "Takuma Hioki",
       "photo": "https://lh3.googleusercontent.com/a/ACg8ocI5ImTuV8ziK8sxbhNkCgIn4mae4q0otW43OfNnYHVGIzIyHWiz=s128-c0x00000000-cc-rp-mo",
       "profile": "https://www.google.com/maps/contrib/103963669942524669753/reviews",
@@ -48,7 +39,16 @@
       "time": "2026-04-05T01:34:39.904430051Z",
       "text": "レディースデイで初めて利用しました！\nサウナ自体初だったんですが、施設が綺麗でよかったです。気持ちよく利用させてもらいました。外気浴が気持ちよかったです。また少人数制が嬉しい。またレディースデイ作って欲しいです！",
       "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pWTk4xaEJhRFZRY1dkYWVERTBNbTFOWkdKdldsRRAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
+    },
+    {
+      "author": "Kaito Tani",
+      "photo": "https://lh3.googleusercontent.com/a-/ALV-UjVKjqyHJoScOH94O0E9A69xERU2FFC1PUFYvXFS3lDWIfLrDCpLrQ=s128-c0x00000000-cc-rp-mo",
+      "profile": "https://www.google.com/maps/contrib/112717034401211289986/reviews",
+      "rating": 5,
+      "time": "2026-08-23T02:46:44.137152781Z",
+      "text": "施設も新しく綺麗で、整い場も広くとても気持ちよく整えました！施設全体的に木の香りがしてとても癒されました。また長野に来た際は利用したいと思います",
+      "uri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21kclRrRkJMVzVGVlRRMmIzZGFhRGsxV2pOM1VFRRAB!2m1!1s0x601d87007d1a0099:0xedf7e2a245f8b380"
     }
   ],
-  "fetchedAt": "2026-11-04T00:16:13.111Z"
+  "fetchedAt": "2026-11-05T00:37:09.379Z"
 }
